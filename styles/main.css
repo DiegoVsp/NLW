@@ -1,10 +1,10 @@
 :root { /*variáveis css*/
   --color-background: #F0F0F7;
-  --color-primary-lighter: #9871F5;
-  --color-primary-light: #916BEA;
-  --color-primary: #8257E5;
-  --color-primary-dark: #774DD6;
-  --color-primary-darker: #6842c2;
+  --color-primary-lighter: #abd2fa;
+  --color-primary-light: #7692ff;
+  --color-primary: #3d518c;
+  --color-primary-dark: #1b2cc1;
+  --color-primary-darker: #091540;
   --color-secondary: #04D361;
   --color-secondary-dark: #04BF58;
   --color-title-in-primary: #FFFFFF;

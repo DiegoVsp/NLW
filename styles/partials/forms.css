@@ -18,6 +18,7 @@
   padding: 0 1.6rem;
   font: 1.6rem Archivo;
 }
+
 .textarea-block textarea {
   padding: 1.2rem 1.6rem;
   height: 16rem;
@@ -25,10 +26,12 @@
   resize: vertical;
 
 }
+
 .input-block,
 .textarea-block {
   position: relative;
 }
+
 .input-block:focus-within::after,
 .textarea-block:focus-within::after {
   content: "";
@@ -37,5 +40,5 @@
   background: var(--color-primary-light);
   position: absolute;
   left: 1.6rem;
-  bottom: 0;  
+  bottom: 0;
 }

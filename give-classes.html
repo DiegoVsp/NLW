@@ -12,6 +12,7 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&amp;family=Poppins:wght@400;600&amp;display=swap"
     rel="stylesheet">
+  <script src="/scripts/addField.js" defer></script>
 </head>
 
 <body id="page-give-classes">
@@ -50,6 +51,7 @@
             <textarea name="bio" id="bio" required></textarea>
           </div>
         </fieldset>
+
         <fieldset>
           <legend>Sobre a aula</legend>
           <div class="select-block">
@@ -73,9 +75,14 @@
             <input name="cost" id="cost" type="number" required>
           </div>
         </fieldset>
+
         <fieldset id="schedule-items">
-          <legend>Horários disponíveis <button id="add-time">+ Novo Horário</button></legend>
+          <legend>Horários disponíveis
+            <button type="button" id="add-time">+ Novo Horário</button>
+          </legend>
+
           <div class="schedule-item">
+
             <div class="select-block">
               <label for="weekday">Dia da semana</label>
               <select name="weekday[]" required>
@@ -89,13 +96,14 @@
                 <option value="6">Sábado</option>
               </select>
             </div>
+
             <div class="input-block">
               <label for="time_from">Das</label>
-              <input name="time-from[]" type="time" required>
+              <input type="time" name="time-from[]" required>
             </div>
             <div class="input-block">
               <label for="time_to">Até</label>
-              <input name="time-to[]" type="time" required>
+              <input type="time" name="time-to[]" required>
             </div>
           </div>
         </fieldset>
